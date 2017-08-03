@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <title>UBreakIFix</title>
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/site.js"></script>
+	<script src="js/about.js"></script>
+	
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+	<div class="container page">
+		<div class="popup" id="media-popup">
+			<div class="row">
+				<div class="col-md-*">
+					<h5>Touch the background to hide</h5>
+					<img class="img-responsive teamimg" src="resources/images/team.png">
+					<p class="teamtxt">At uBreakIFix we are obsessed about 
+newest technologies, that what makes us the best in the field and that is why we love our job. 
+We have passion for technology and commitment for the costumer, and that is why we treat every electronic device we fix as it was ours.</p>
+				</div>
+			</div> 
+        </div>
+		<div class="row">
+            <div class="col-md-*">
+                <img class="img-responsive hidden-xs" src="resources/images/header_logo.png" alt="logo">
+				<img class="img-responsive visible-xs" src="resources/images/header_logo_mini.png" alt="logo">
+            </div>
+        </div>  
+        <div class="row">
+        <div class="col-md-*">
+            <nav class="navbar navbar-inverse" id="myNavbarInv">
+              <div class="container-fluid" id="myNavbarFluid">
+                <div class="navbar-header">
+                 <button id="myNavbarBtn" type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="navbar-item-custom" onclick="switchToPage('html/index.html');">HOME</li>
+                    <li class="navbar-item-custom" onclick="switchToPage('html/repairs.html');">REPAIRS &amp; UPGRADES</li>
+                    <li class="navbar-item-custom current">ABOUT US</li>
+                    <li class="navbar-item-custom" onclick="switchToPage('html/contact.html');">CONTACT US</li> 
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-*">
+                <h1>ABOUT US</h1>
+                <div class="linesep"></div>
+                <h2>Core value 
+                    <br>
+                    <span id="insideh2">
+                        Everybody has standards, ours are just higher.</span>
+                </h2>
+                <div class="linesep"></div>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-*">
+            	<img id="bigPic" class="img-responsive" src="resources/images/A man has no name.jpg" alt="Man in a green shirt"/>
+                <div class="topright">
+                    <p class="mediumtxtWhite">At uBreakiFix we are eager to
+                    help people by providing them
+                    the best service they can
+                    get and share the massive knowledge
+                    we gathered over the years</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-8">
+            	<div class="row">
+                    <div class="col-md-8 container-top">
+                    	<h3>Who We Are</h3>
+                        <p class="smalltxt">Launched in March 2008, we are the 
+                        <br>pioneers in repairing all tech products.
+                        <br>At uBreakIFix we are obsessed about 
+                        <br>newest technologies, that what makes us the best in the field and that is why we love our job.
+                        <br>We have passion for technology and commitment for the costumer, and that is why we treat every electronic device we fix as it was ours.</p>
+                    </div>
+                    <div class="col-md-4 container-top">
+                    	<img class="img-responsive smallPic" src="resources/images/lab.png" alt="In the lab"/>
+                    </div>
+                </div>
+                <div class="smallerLinesep"></div>
+                <div class="row">
+                    <div class="col-md-12 container-bottom">
+                    	<h3>What We Do</h3>
+                        <p class="smalltxt">We do exactly what our name say! we fix what you break.
+                        <br>So whether you are a constructor or a lwayer and your phone,tablet or your computer is damaged we are what you are looking for in order to fix what's broken.
+                        <br>We know exactly what you need and we do this with extraordinary service using only the highest quality parts available.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="smallerLinesep hidden-lg hidden-md" style="margin:25px auto; width:90%;"></div>
+            <div class="col-md-4 container-right">
+            	<h4>About the Team</h4>
+				<p class="smalltxtWhite">
+            	First and foremost we are problem solvers and we do it with a smile.<br/>
+                When you come to us with an electronic issue we will do everything we can to find a way to fix it.<br/>
+				We are very good in what we do. does anyone read this?<br/>
+				So meet the team that will stand for you whenever you need.</p>
+				<a href="#media-popup" data-media="resources/images/team.png">
+					<button type="button">READ MORE</button>
+                </a>
+            </div>
+        </div>
+        <div class="row" style="margin-top:10px;">
+        	<div class="col-md-12" id="footer">
+                <div id="line"></div>
+                <div id="footer_bar" class="hidden-sm hidden-xs" style="">
+                    <ul>
+                        <li onclick="switchToPage('html/index.html');">HOME</li>
+						<li onclick="switchToPage('html/repairs.html');">REPAIRS &amp; UPGRADES</li>
+                        <li class="current">ABOUT US</li>
+                        <li onclick="switchToPage('html/contact.html');">CONTACT US</li>
+                    </ul>
+                </div>
+                <div id="copyright">&copy; Human Computer Interaction Course in BGU 2016</div>
+            </div>
+        </div>
+ 	</div>
+</body>
+</html>

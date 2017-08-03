@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <title>UBreakIFix</title>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/repair.js"></script>
+    
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/repairs.css">
+    
+    
+</head>
+<body>
+	<div class="container page">
+    	<div class="popup" id="media-popup">
+        	<h5>Touch the background to hide the video</h5>
+            <iframe id="vidiframe" width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe> 
+        </div>
+		<div class="row">
+            <div class="col-md-*">
+                <img class="img-responsive hidden-xs" src="resources/images/header_logo.png" alt="logo">
+				<img class="img-responsive visible-xs" src="resources/images/header_logo_mini.png" alt="logo">
+            </div>
+        </div>  
+        <div class="row">
+        <div class="col-md-*">
+            <nav class="navbar navbar-inverse" id="myNavbarInv">
+              <div class="container-fluid" id="myNavbarFluid">
+                <div class="navbar-header">
+                 <button id="myNavbarBtn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="navbar-item-custom" onclick="switchToPage('html/index.html');">HOME</li>
+                    <li class="navbar-item-custom current">REPAIRS &amp; UPGRADES</li>
+                    <li class="navbar-item-custom" onclick="switchToPage('html/about.html');">ABOUT US</li>
+                    <li class="navbar-item-custom" onclick="switchToPage('html/contact.html');">CONTACT US</li> 
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-*">
+                <h1>REPAIRS & UPGRADES</h1>
+                <div class="linesep"></div>
+                <h2>Do you want to repair your device? Do you want to upgrade your PC?
+                    <br>
+                    You are in the right place! Go ahead and peek what you want to do.</h2>
+                <div class="linesep"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 container-black">
+                <a href="#media-popup" data-media="https://www.youtube.com/embed/TueTRd3eTU0">
+                    <img class="smallimg img-responsive" src="resources/images/repair-icon.png" alt="screwDriver"/>
+                </a>
+                <h3>SUPPORT DEVICES</h3>
+                <p class="smalltxt">We support all devices of Apple,
+                <br>Samsung, Huawei, Xbox Console,
+                <br>Dell, Lenovo, LG, Asus
+                <br>and many more.</p>
+            </div>
+            <div class="col-md-4 container-black">
+            	<a href="#media-popup" data-media="https://www.youtube.com/embed/unz4qdH-kPY">
+					<img class="img-responsive smallimg" src="resources/images/clean-icon.png" alt="pointingHand"/>
+				</a>
+                <h3>FIND AND DELETE VIRUSES</h3>
+                <p class="smalltxt">Our team is an expert in finding and
+                <br>dealing with viruses, Trojan horses  
+                <br>and any kind of spyware.</p>
+            </div>
+            <div class="col-md-4 container-black-right">
+            	<a href="#media-popup" data-media="https://www.youtube.com/embed/1Xm786X9FK0">
+					<img class="img-responsive smallimg" src="resources/images/computer-icon.png" alt="questionMark"/>
+				</a>
+                <h3>UPGRADE YOUR HARDWARE</h3>
+                <p class="smalltxt">We have the best and the newest
+                <br>hardware for your PC, laptop or even
+                <br>for your console,all you need to do is
+                <br>just ask.</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-4 container-blank">
+            	<a href="#media-popup" data-media="https://www.youtube.com/embed/l5aF23XpBwU">
+					<img class="img-responsive mediumimg" src="resources/images/phone.png" alt="phone"/>
+				</a>
+            </div>
+            <div class="col-md-4 container-gray">
+            	<h4>MOBILE DEVICES</h4>
+                <p class="smalltxtGray">We can handle everything from
+                <br>damaged battery to broken screen 
+				<br>or even touch sensors, and all of this 
+				<br>with great prices.
+                <br>Stop by today and get your device fixed.</p>	
+            </div>
+            <div class="col-md-4 container-blank-right">
+            	<a href="#media-popup" data-media="https://www.youtube.com/embed/CCbWyYr82BM">
+					<img class="img-responsive mediumimg" src="resources/images/ApplePhone.png" alt="ApplePhone"/>
+				</a>
+            </div>
+        </div>
+        <div class="row" style="margin-top:10px;">
+            <div class="col-md-4 container-gray">
+            	<h4>COMPUTER SERVICING</h4>
+                <p class="smalltxtGray">We can handle every issue arrising
+                <br>from your PC or laptop. 
+                <br>We have the newest hardware and 
+				<br>software available and a great team 
+                <br>that will make your computer work
+                <br> as new in no time!</p>
+            </div>
+            <div class="col-md-4 container-blank">
+            	<a href="#media-popup" data-media="https://www.youtube.com/embed/sZ9bdVayjEo">
+                    <img class="img-responsive mediumimg" src="resources/images/imac.png" alt="iMac"/>
+				</a>
+            </div>
+            <div class="col-md-4 container-gray-right">
+            	<h4>FOR SMALL BUSINESSES</h4>
+                <p class="smalltxtGray">As a business which uses 
+                <br>technological devices on a daily 
+                <br>base you need every device in it's 
+                <br>full functionality. So if you
+				<br>have any issues with your devices  
+				<br>we can handle it with great prices 
+                <br>especially for your business.</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top:10px;">
+        	<div class="col-md-12" id="footer">
+                <div id="line"></div>
+                <div id="footer_bar" class="hidden-sm hidden-xs" style="">
+                    <ul>
+                        <li onclick="switchToPage('html/index.html');">HOME</li>
+                        <li class="current">REPAIRS &amp; UPGRADES</li>
+                        <li onclick="switchToPage('html/about.html');">ABOUT US</li>
+                        <li onclick="switchToPage('html/contact.html');">CONTACT US</li>
+                    </ul>
+                </div>
+                <div id="copyright">&copy; Human Computer Interaction Course in BGU 2016</div>
+            </div>
+        </div>
+ 	</div>
+</body>
+</html>

@@ -1,0 +1,269 @@
+/* CSS Document */
+#myNavbarBtn{
+	width:auto;
+	float:right;
+	border: 0px solid black;
+	border-radius:0;
+	background-color:#323232;
+	margin: 5px 35px 5px 0;
+ 	padding:0;
+}
+.linesep{
+	border-bottom: 1px solid #808080;
+	height:5px;
+	width:100%;
+	margin-bottom:10px;
+}
+.smallerLinesep{
+	border-bottom: 1px solid #808080;
+	height:5px;
+	width:100%;
+	padding:0;
+	margin:15px 0;
+}
+h1{
+	font-family:"OpenSansCond";
+	font-size:34px;
+	font-weight:bold;
+	color:#B01919;
+	margin:0 0 5px 10px;
+	padding:0px;
+}
+h2{
+	font-family:"OpenSansCond";
+	font-size:28px;
+	font-weight:normal;
+	color:#D10F0F;
+	margin:10px;
+	padding:0px;
+}
+h3{
+	font-family:"OpenSansCond";
+	font-size:28px;
+	font-weight:normal;
+	color:#960E0E;
+	margin:10px;
+}
+h4{
+	font-family:"OpenSansCond";
+	font-weight:normal;
+	font-size:32px;
+	margin:0 20px 0 20px;
+	padding-top:15px;
+	color:#D92E2E;
+}
+h5{
+	position:fixed;
+	font-weight:bold;
+	width:auto;
+	color:white;
+	margin:10px 30%;
+	padding:0;
+}
+#insideh2{
+	font-family:"OpenSansCond";
+	font-size:28px;
+	font-weight:normal;
+	color:#000000;
+	margin:0;
+	padding-left:20px;
+}
+#bigPic{
+	width:100%;
+	max-height:auto;
+	margin:10px 0;
+}
+.container-top {
+    min-height:220px;
+	max-width:400px;
+}
+.container-bottom {
+    min-height:180px;
+	max-width:580px;
+}
+.container-right {
+    height:380px;
+	width:285px;
+	padding:3px;
+	margin:25px 0 0 15px;
+	background-color:#323232;
+	border-radius:6px;
+}
+.parent{
+	position: absolute;
+    width: 100%;
+    height:auto;
+}
+.topright {
+    position: absolute;
+	right:30px;
+    top: 300px;
+    padding: 0;
+}
+.mediumtxtWhite{
+	font-family:"OpenSans";
+	font-size:20px;
+	color:white;
+	direction:rtl;
+	width:300px;
+}
+.smallPic{
+	position:absolute;
+	margin:auto;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.smalltxt{
+	font-family:"OpenSans";
+	font-size:14px;
+	color:gray;
+	margin:0 0 0 10px;
+	padding:0;
+}
+.smalltxtWhite{
+	font-family:"OpenSans";
+	font-size:16px;
+	width:245px;
+	color:white;
+	margin:10px 10px 0 20px;
+	padding:0;
+}
+button{
+	width:240px;
+	height:42px;
+	background-color:#D10F0F;
+	color:white;
+	font-family:"OpenSans";
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.5px;
+	margin:20px 0 0 20px;
+	border-radius:20px;
+	border:none;
+}
+button:hover {
+	background-color:#960E0E;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.teamtxt{
+	position:fixed;
+	bottom:10px;
+    margin:0 12%;
+	max-width:640px;
+	max-height:370px;
+	width:80%;
+	color:white;
+	font-family:"OpenSans";
+	font-size:22px;
+}
+.teamimg{
+	position:fixed;
+    margin:0 12%;
+	top:50px;
+	max-width:640px;
+	max-height:370px;
+	width:76%;
+}
+.page {
+    position:relative;
+    height:100%;
+	width:100%;
+	max-width:900px;
+}
+.popup {
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:0;
+	right:0;
+    width:100%;
+	max-width:900px;
+    height:100%;
+    background:rgba(0,0,0,0.9);
+    opacity:0;
+    visibility:hidden;
+    transition:.3s ease;
+}
+
+.show-popup .popup {
+    opacity:1;
+    visibility: visible;    
+}
+
+.popup > iframe {
+	position:fixed;
+    margin:70px 10% 0;
+	max-width:640px;
+	max-height:370px;
+	width:80%;
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .container-right {
+	margin:15px auto 0;
+  }
+  .container-top {
+	max-width:420px;
+	min-height: 160px;
+	margin:15px auto 0;
+  }
+  .container-bottom {
+	max-width:420px;
+	margin:15px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 321px){
+  h1{
+	font-size:28px;	
+  }
+  h2{
+	font-size:22px;	
+  }
+  #insideh2{
+	font-size:22px;	
+  }
+  .topright {
+    visibility:hidden;
+  }
+  .container-right {
+	margin:15px auto 0;
+  }
+  .container-top {
+    margin:15px auto 0;
+  }
+  .container-bottom {
+	margin:15px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container-right {
+	margin:15px auto 0;
+  }
+  .container-top {
+    margin:15px auto 0;
+  }
+  .container-bottom {
+	margin:15px auto 0;
+  }
+  h1{
+	font-size:28px;	
+  }
+  h2{
+	font-size:18px;	
+  }
+  #insideh2{
+	font-size:18px;
+	padding-left:10px;	
+  }
+  .topright {
+    visibility:hidden;
+  }
+}

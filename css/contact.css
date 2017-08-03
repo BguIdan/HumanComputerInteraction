@@ -1,0 +1,135 @@
+/* CSS Document */
+#location{
+	width:898px;
+	height:428px;
+	margin:40px 0 0 0;
+	border:1px solid #808080;
+}
+#googleMap{
+	width:auto;
+	height:350px;
+	margin:10px auto 10px;
+}
+#col-map{
+	border:1px solid #323232;
+	padding:0 15px 5px;
+	margin:30px 0 10px;	
+}
+.linesep{
+	border-bottom: 1px solid #808080;
+	height:5px;
+	width:100%;
+	margin-bottom:10px;
+}
+h1{
+	font-family:"OpenSansCond";
+	font-size:34px;
+	font-weight:bold;
+	color:#960E0E;
+	margin:0 0 5px 10px;
+	padding:0px;
+}
+h2{
+	font-family:"OpenSans";
+	font-size:20px;
+	font-weight:normal;
+	font-style:italic;
+	color:#323232;
+	margin:10px;
+	padding:0px;
+}
+h3{
+	font-family:"OpenSansCond";
+	font-size:32px;
+	font-weight:normal;
+	color:#960E0E;
+	margin:4px 0 4px 25px;
+	padding:0px;
+}
+#logo{
+	width:300px;
+	height:auto;
+	display:block;
+	margin:20px auto 30px auto;
+}
+#addr{
+	width:200px;
+	font-family:"OpenSans";
+	font-size:18px;
+	margin:20px auto 30px auto;
+	color:#505050;
+}
+form{
+	margin: 30px auto 0 auto;
+	border-left:1px solid rgba(200,200,200,0.5);
+}
+label{
+    margin:0;
+	text-align:right;
+	vertical-align:top;
+	font-family:"OpenSans";
+	font-weight:bold;
+	font-size:16px;
+	color:#323232;
+}
+#name,#email,#subject,#content {
+	height:35px;
+	background:#323232;
+	padding:7px;
+	font-family:"OpenSans";
+	font-weight:normal;
+	font-size:14px;
+	color:#ffffff;
+	border:none;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+#content {
+	height:100px;
+	overflow: auto;
+	resize:none;
+}
+#submit {
+    height:40px;
+    border:none;
+    cursor:pointer;
+	color:white;
+	border-radius:5px;
+	background-color:#960E0E;
+	font-size:24px;
+	padding:0;
+}
+#submit:hover {
+	opacity:.9;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 500px #323232 inset;
+    -webkit-text-fill-color: white;
+}
+input:-webkit-autofill:focus {
+    -webkit-box-shadow:0 0 0 500px #323232 inset,0 0 0 50px white inset;
+    -webkit-text-fill-color: white;
+}
+
+/* responsive text queries */
+@media screen and (max-width: 992px) and (min-width: 321px){
+  form{
+	border-left:0;  
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px){
+  h1{
+	font-size:28px;	
+  }
+}
+
+@media screen and (max-width: 320px) {
+  form{
+	border-left:0;  
+  }
+  h1{
+	font-size:28px;	
+  }
+}
